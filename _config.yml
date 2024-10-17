@@ -1,8 +1,8 @@
 # Site settings
-title:              Portfolio Template
-email:              your-email@domain.com
-description:        "Portfolio template for students in the MSR program at Northwestern University"
-url:                "http://localhost:4000"
+title:              Joseph Blom Portfolio
+email:              jblom5400@gmail.com
+description:        "Project portfolio for Joseph Blom"
+url:                "jrblom2.github.io"
 baseurl:            /msr-student-template
 
 # File structure settings
