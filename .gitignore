@@ -4,5 +4,4 @@ _site
 .jekyll-cache
 build/
 serve/
-Gemfile.lock
 

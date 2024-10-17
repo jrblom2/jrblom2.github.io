@@ -1,44 +1,19 @@
-# Site/SEO settings
-email: 
-permalink: /:year/:month/:day/:title/
-google_analytics: 
-
-title: Trophy
-description: 
+# Site settings
+title:              Joseph Blom Portfolio
+email:              jblom5400@gmail.com
+description:        "Project portfolio for Joseph Blom"
 url:                "jrblom2.github.io"
 baseurl:            /jrblom2.github.io/
-twitter_username: 
-default_img: 
 
-# Profile settings
-name: 
-profile_img: 
-profile: 
-social:
-  github: 
+# File structure settings
+image_path:         /public/images
 
 # Build settings
-markdown: kramdown
-plugins:
-  - jekyll-paginate
-  - jekyll-sitemap
-  - octopress-autoprefixer
-compress_html:
-  clippings: all
-  comments: all
-  startings: [html, head, body]
-exclude:
-  - _screenshots
-  - .DS_Store
-  - Gemfile
-  - Gemfile.lock
-  - LICENSE.txt
-  - README.md
+markdown:           kramdown
+permalink:          pretty
 
-# Pagination
-paginate: 5
-paginate_path: "/blog/page-:num"
-
-# Sass
-sass:
-  style: compressed
+# Collection definitions and settings
+collections:
+  projects:
+    output: true
+    permalink: /projects/:path/
