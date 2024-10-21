@@ -1,16 +1,18 @@
-# User config
-author: "Pineapple"
-tagline: "Pineapple Certfied Jekyll Theme"
-description: "In 1493, explorer Christopher Columbus found pineapples on Guadeloupe Island in the Caribbean. Pineapple on pizza soon followed..."
-keywords: "Pineapple, Pineapple Pizza, Pineapple House"
-email: "pineapple@example.com"
-linkedin: "https://www.linkedin.com/"
-twitter: "https://twitter.com/"
-github: "https://github.com/"
+# Site settings
+title:              Portfolio Template
+email:              your-email@domain.com
+description:        "Portfolio template for students in the MSR program at Northwestern University"
+baseurl:            ""
 
-# Site config
-baseurl: ""
-highlighter: rouge
-sass:
-  sass_dir: assets/scss
-  style: compressed
+# File structure settings
+image_path:         /public/images
+
+# Build settings
+markdown:           kramdown
+permalink:          pretty
+
+# Collection definitions and settings
+collections:
+  projects:
+    output: true
+    permalink: /projects/:path/
