@@ -22,10 +22,13 @@ images:
     url: "/assets/images/projects/poolinator/TeamPhoto.jpg"
     alt: "A great team"
 
-videos:
+autovideos:
   - video:
     url: "/assets/videos/projects/poolinator/PoolSuperCut.mp4"
+
+videos:
   - video:
     url: "/assets/videos/projects/poolinator/SideBySide.mp4"
+
 ---
 <p>Pineapples are delicious tropical fruit. There are more than a hundred varieties of pineapples that grow in varying sizes. The plant is indigenous to South America and is said to originate from the area between southern Brazil and Paraguay.</p>
