@@ -6,7 +6,7 @@ email: "jblom5400@gmail.com"
 linkedin: "//www.linkedin.com/in/joseph-blom-975366231"
 
 # Site config
-# url:                "http://localhost:4000"
+url:                "http://localhost:4000"
 baseurl: ""
 highlighter: rouge
 sass:

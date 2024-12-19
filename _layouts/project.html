@@ -21,14 +21,20 @@
 					<div class="project-meta">
 						<span class="h2">Technologies</span>
 						<p>{{ page.project.tech }}</p>
-						<span class="h2">Agency</span>
-						<p><a title="{{ page.agency.title }}" href="{{ page.agency.url }}" target="_blank" rel="nofollow">{{ page.agency.title }}</a></p>
 						<span class="h2">Year</span>
-						<p>{{ page.agency.year }}</p>
+						<p>{{ page.project.year }}</p>
 					</div>
 				</article>
 				<aside>
 					<ul>
+						{% for video in page.videos %}
+						<li>
+							<video controls>
+								<source src="{{ video.url | prepend: site.baseurl }}" type="video/mp4">
+							  Your browser does not support the video tag.
+							</video> 
+						</li>
+						{% endfor %}
 						{% for image in page.images %}
 						<li>
 							<img src="{{ image.url | prepend: site.baseurl }}" alt="{{ image.alt }}" />
