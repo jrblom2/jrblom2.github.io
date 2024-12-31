@@ -47,6 +47,11 @@
 							<img src="{{ image.url | prepend: site.baseurl }}" alt="{{ image.alt }}" />
 						</li>
 						{% endfor %}
+						{% for plot in page.plots %}
+						<li>
+							{% include {{ plot.url }} %}
+						</li>
+						{% endfor %}
 					</ul>
 				</aside>
 			</div>
