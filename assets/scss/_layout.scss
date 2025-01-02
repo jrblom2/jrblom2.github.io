@@ -86,6 +86,8 @@
 		li {
 			float: left;
 			width: 50%;
+			height: 0;
+    		aspect-ratio: 1;
 		}
 
 		a {
@@ -96,10 +98,14 @@
 	@media (min-width: $breakpoint-medium) {
 		li {
 			width: 33.33333%;
+			height: 0;
+    		aspect-ratio: 1;
 		}
 	}
 
 	li {
+		height: 0;
+    	aspect-ratio: 1;
 		margin-bottom: 3rem;
 
 		&:last-child {
