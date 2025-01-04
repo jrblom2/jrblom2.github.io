@@ -26,6 +26,11 @@
 				</article>
 				<aside>
 					<ul>
+						{% for plot in page.plots %}
+						<li>
+							{% include {{ plot.url }} %}
+						</li>
+						{% endfor %}
 						{% for video in page.autovideos %}
 						<li>
 							<video width="100%" height="auto" controls autoplay loop>
@@ -45,11 +50,6 @@
 						{% for image in page.images %}
 						<li>
 							<img src="{{ image.url | prepend: site.baseurl }}" alt="{{ image.alt }}" />
-						</li>
-						{% endfor %}
-						{% for plot in page.plots %}
-						<li>
-							{% include {{ plot.url }} %}
 						</li>
 						{% endfor %}
 					</ul>
