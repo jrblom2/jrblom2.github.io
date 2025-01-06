@@ -245,6 +245,11 @@
 	}
 
 	li {
+
+		.plots {
+			float: right;
+		}
+		
 		margin-bottom: 0rem;
 
 		&:last-child {
