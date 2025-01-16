@@ -36,6 +36,7 @@ videos:
 </p>
 <span class="h2">Method</span>
 <p> On startup, we use an april tag attached to the end effector of the robot arm to orient the camera relative to the robot. Once this is done we use another tag attached to the pool table to find the locations of the pockets, and an Intel RealSense D435 camera to find the location of all the balls using classic computer vision. </p>
+<span class="h2"></span>
 <p>
 At this point, the game begins and the robot calculates a shot based on the angle between the cue ball, a target ball, and a pocket within 45 degrees beyond it. One of the biggest challenges in this project was computing the appropriate offsets and orientations to command to the robot for a given shot. Locating the balls with enough accuracy to make precise shots was also more difficult than expected.  If at any point the cue ball is pocketed, the robot will ask for it to be reset before continuing.
 </p>
