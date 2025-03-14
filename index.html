@@ -14,8 +14,9 @@
 		<section class="projects">
 			<div class="container">
 				<h2>Projects I have worked on.</h2>
+				{% assign sortedPosts = site.categories.projects | sort: 'project.order' %}
 				<ul class="projects-list">
-					{% for item in site.categories.projects %}
+					{% for item in sortedPosts %}
 						<li>
 							<a href="{{ item.url | prepend: site.baseurl }}">
 								<div class="img-wrapper">
