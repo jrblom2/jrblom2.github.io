@@ -192,6 +192,22 @@
 		max-width: 100%;
 	}
 
+	.plots {
+		float: right;
+
+		@media (max-width: $breakpoint-medium) {
+			display: none;
+		}
+	}
+
+	.small-content {
+		display: none;
+
+		@media (max-width: $breakpoint-medium) {
+			display: inline-block;
+		}
+	}
+
 	article {
 		margin-bottom: 3rem;
 
@@ -242,10 +258,6 @@
 	}
 
 	li {
-
-		.plots {
-			float: right;
-		}
 		
 		margin-bottom: 0rem;
 

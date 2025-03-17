@@ -52,6 +52,19 @@
 							{% include {{ plot.url }} %}
 						</li>
 						{% endfor %}
+						{% for video in page.smallautovideos %}
+						<li class="small-content">
+							<video width="100%" height="auto" controls autoplay loop>
+								<source src="{{ video.url | prepend: site.baseurl }}" type="video/mp4">
+							  Your browser does not support the video tag.
+							</video> 
+						</li>
+						{% endfor %}
+						{% for image in page.smallimages %}
+						<li class="small-content">
+							<img src="{{ image.url | prepend: site.baseurl }}" alt="{{ image.alt }}" />
+						</li>
+						{% endfor %}
 					</ul>
 				</aside>
 			</div>
