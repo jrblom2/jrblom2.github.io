@@ -19,9 +19,6 @@ images:
   - image:
     url: "/assets/images/projects/poolinator/Equipment.jpg"
     alt: "Cues, balls, and table used for the poolinator"
-  - image:
-    url: "/assets/images/projects/poolinator/TeamPhoto.jpg"
-    alt: "A great team"
 
 autovideos:
   - video:
@@ -44,6 +41,8 @@ At this point, the game begins and the robot calculates a shot based on the angl
 <span class="h2">Role</span>
 <p> I was primarily responsible for setting up the model of all the items in the task space relative to the robot arm. I also designed the motion plans for striking the cue ball, as well as wrote the control loop that would play through an entire game.
 </p>
+
 <span class="h2">Amazing Group Members</span>
-<p> An Nguyen, Caroline Terryn, Catherine Maglione, Logan Boswell
+<p> Catherine Maglione, An Nguyen, Logan Boswell, Caroline Terryn
 </p>
+<img src="/assets/images/projects/poolinator/TeamPhoto.jpg" alt="A great team">
