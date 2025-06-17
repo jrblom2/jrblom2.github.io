@@ -42,14 +42,14 @@
 							</video> 
 						</li>
 						{% endfor %}
-						{% for image in page.images %}
-						<li>
-							<img src="{{ image.url | prepend: site.baseurl }}" alt="{{ image.alt }}" />
-						</li>
-						{% endfor %}
 						{% for plot in page.plots %}
 						<li class="plots">
 							{% include {{ plot.url }} %}
+						</li>
+						{% endfor %}
+						{% for image in page.images %}
+						<li>
+							<img src="{{ image.url | prepend: site.baseurl }}" alt="{{ image.alt }}" />
 						</li>
 						{% endfor %}
 						{% for video in page.smallautovideos %}
