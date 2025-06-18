@@ -49,6 +49,15 @@ h3,
 	float: right;
 }
 
+.equation {
+    display: inline-block;
+    max-width: 100%;
+    overflow-wrap: break-word;
+    white-space: normal;
+    word-break: break-word;
+	margin: 0.5em 0;
+  }
+
 p {
 	margin: 0;
 }
