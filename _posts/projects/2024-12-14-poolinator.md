@@ -43,6 +43,10 @@ At this point, the game begins and the robot calculates a shot based on the angl
 </p>
 
 <span class="h2">Amazing Group Members</span>
-<p> Catherine Maglione, An Nguyen, Logan Boswell, Caroline Terryn
+<p>
+<a href="http://catherinemaglione.com/" target="_blank" rel="noopener noreferrer">Catherine Maglione,</a>
+<a href="https://annguyen9461.github.io/" target="_blank" rel="noopener noreferrer">An Nguyen,</a>
+<a href="https://lbos7.github.io/" target="_blank" rel="noopener noreferrer">Logan Boswell,</a>
+<a href="https://www.linkedin.com/in/caroline-terryn-6817561a3/" target="_blank" rel="noopener noreferrer">Caroline Terryn</a>
 </p>
 <img src="/assets/images/projects/poolinator/TeamPhoto.jpg" alt="A great team">
