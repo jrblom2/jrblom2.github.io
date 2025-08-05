@@ -9,7 +9,7 @@ meta:
 project:
   title: "The Poolinator"
   type: "ROS2"
-  url: "https://github.com/ME495-EmbeddedSystems/finalproject-jrblom2"
+  url: "https://github.com/ME495-EmbeddedSystems/Pool-inator"
   logo: "/assets/images/projects/poolinator/SuperCutSquare.gif"
   tech: "ROS2, Python, MoveIt, OpenCV"
   year: "2024"

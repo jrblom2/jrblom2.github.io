@@ -9,7 +9,7 @@ meta:
 project:
   title: "The Harmonizer"
   type: "C++"
-  url: "https://github.com/NU-MECH-ENG-495/project-jrblom2"
+  url: "https://github.com/NU-MECH-ENG-495/Harmonizer"
   logo: "/assets/images/projects/harmonica/Calibration.gif"
   tech: "C++, Arduino, CAD"
   year: "2025"
