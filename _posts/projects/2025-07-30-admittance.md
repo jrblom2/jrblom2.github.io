@@ -9,7 +9,7 @@ meta:
 project:
   title: "Franka Emika Admittance Control"
   type: "Controls"
-  url: "https://github.com/jrblom2/Franka-Emika-Admittance-Control"
+  url: "https://github.com/jrblom2/Shared-Learning-with-Admittance-Control"
   logo: "/assets/images/projects/admittance/shakin.gif"
   tech: "Controls, C++, Libfranka, Dynamics"
   year: "2025"
