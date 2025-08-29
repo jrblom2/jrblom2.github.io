@@ -13,7 +13,7 @@ project:
   logo: "/assets/images/projects/poolinator/SuperCutSquare.gif"
   tech: "ROS2, Python, MoveIt, OpenCV"
   year: "2024"
-  order: 3
+  order: 6
 
 images:
   - image:
