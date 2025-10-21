@@ -184,10 +184,16 @@
 	.container {
 		max-width: 100%;
 		display: flex;
-		align-items: flex-start;
+		flex-direction: column;
+		align-items: stretch;
 		flex-wrap: nowrap;
-		gap: 0%;
-		flex-direction: row;
+		gap: 0; // remove any spacing on mobile
+		@media (min-width: $breakpoint-medium) {
+			// Desktop: side by side
+			flex-direction: row;
+			align-items: flex-start;
+			gap: 0; // or small gap if desired
+		}
 	}
 
 	.plots {
@@ -212,7 +218,7 @@
 		@media (min-width: $breakpoint-medium) {
 			position: static; // remove absolute positioning
 			float: none;
-			width: 40%;
+			width: 45%;
 			margin-left: auto; // keeps it on the right
 			order: 2;
 		}
