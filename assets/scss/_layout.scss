@@ -178,18 +178,16 @@
 
 	@media (min-width: $breakpoint-medium) {
 		margin-top: -21rem;
-
-		.article-wrapper {
-			position: absolute;
-			top: 0;
-			left: 0;
-			right: 0;
-			bottom: 0;
-		}
 	}
 
+	// make the two columns (aside + article) flex
 	.container {
 		max-width: 100%;
+		display: flex;
+		align-items: flex-start;
+		flex-wrap: nowrap;
+		gap: 0%;
+		flex-direction: row;
 	}
 
 	.plots {
@@ -212,11 +210,11 @@
 		margin-bottom: 3rem;
 
 		@media (min-width: $breakpoint-medium) {
-			float: right;
-			right: 0;
+			position: static; // remove absolute positioning
+			float: none;
 			width: 40%;
-			position: absolute;
-			right: 5%;
+			margin-left: auto; // keeps it on the right
+			order: 2;
 		}
 	}
 
@@ -229,13 +227,16 @@
 		}
 
 		@media (min-width: $breakpoint-medium) {
-			float: left;
+			position: relative; // ensure Sticky-kit can measure it
+			float: none;
 			width: 55%;
+			margin-right: auto; // keeps it on the left
+			order: 1;
 		}
 
 		img {
 			width: auto;
-  			height: auto;
+			height: auto;
 			float: right;
 		}
 	}
